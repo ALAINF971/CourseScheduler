@@ -1,1 +1,3 @@
 # CourseScheduler
+
+Class Project
