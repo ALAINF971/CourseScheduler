@@ -1,0 +1,18 @@
+Explained format for import.
+
+command to import
+
+mongoimport -d DATABASE -collection COLLECTION --file ./FILE.json
+
+The file must have the following format:
+{JSON OBJECT 1}
+{JSON OBJECT 2}
+etc.
+
+Example:
+{ "firstName" : "test", "lastName" : "test", "email" : "asd@asd.com", "password" : "123456789", "sid" : "1111111", "createdAt" : { "$date" : 1395073956197 }, "updatedAt" : { "$date" : 1395073956197 }, "_id" : { "$oid" : "532723a459c4c1520dc69d16" } }
+{ "firstName" : "TEST2", "lastName" : "TEST2", "email" : "asd2@asd.com", "password" : "123456789", "sid" : "1234567", "createdAt" : { "$date" : 1395074874393 }, "updatedAt" : { "$date" : 1395074874393 }, "_id" : { "$oid" : "5327273a3c4866d60e6997f9" } }
+
+
+This is the template for a course
+

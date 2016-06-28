@@ -1,0 +1,178 @@
+<%- partial('../template/partials/header')%> 
+<%- partial('../template/partials/navigation')%> 
+
+<div class="intro-header" style="padding-top: 0px; padding-bottom: 0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h3>Profile</h3>
+                    <hr class="intro-divider" >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li class="active" id='naveEditProfileLI'><a href="#" id='navEditProfile'>Edit Profile</a></li>
+        <li id='navStudentRecordLI'><a href="#" id='navStudentRecord'>Edit Student Record</a></li>
+        <li id='navSavedSchedulesLI'><a href="#" id='navSavedSchedules'>Saved Schedules</a></li>
+    </ul>
+</div>
+
+<div class="content-section-a" id="editProfile">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 .col-md-offset-6">
+                <h3>Current Information</h3>
+                <p>Please enter any new information, enter your current password to validate and click submit.</p>
+                <br/>
+                <div id="editError"></div>
+                <form role="form">
+                    <fieldset>
+
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon">First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder='<%- req.session.userData.firstName %>' />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon">Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></span>
+                                <input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder='<%- req.session.userData.lastName %>' />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                <input type="email" name="email" id="email" class="form-control input-lg" placeholder='<%- req.session.userData.email %>' />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon">Student ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                <input type="text" name="student_id" id="student_id" class="form-control input-lg" placeholder='<%- req.session.userData.sid %>' />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon">New Password:</span>
+                                <input type="password" name="password" id="password" class="form-control input-lg" placeholder="New">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon">Confirm:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                <input type="password" name="condfirmed_password" id="confirmed_password" class="form-control input-lg" placeholder="Confirm">
+                            </div>
+                        </div>
+
+                        <br/>
+
+                        <div class="form-group">
+                            <input type="password" name="current_password" id="current_password" class="form-control input-lg" placeholder="Current Password To Submit">
+                            <br/>
+                            <button type="button" class="btn btn-lg btn-success btn-block"  id="submitEditProfile" value="Submit">Submit</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+                <br/>
+                <h3>Delete Account</h3>
+                    <p>If you desire to have your account deleted, just enter your password and click delete.</p>
+                    <div id="deleteError"></div>
+                    <form role="form">
+                        <fieldset>
+                            <div class="form-group">
+                                <input type="password" name="" id="delete_current_password" class="form-control input-lg" placeholder="Current Password To Delete">
+                                <br/>
+                                <button type="button" class="btn btn-lg btn-success btn-block"  id="submitDeleteProfile" value="Submit">Delete</button>
+                            </div>
+                        </fieldset>
+                    </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-section-a" id="savedSchedules">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 .col-md-offset-6">
+                <h3>No currently saved schedules...</h3>
+                <br/>
+                <button type="button" class="btn btn-lg btn-success btn-block"  id="schedulePageRedirect" value="Submit">Get Some Now!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content-section-a" id="editStudentRecord">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 .col-md-offset-6">
+                <h3>Courses Taken</h3>
+                <p>This is a list of all courses on your student record that you have taken and passed.</p>
+                <br/>
+                <table class="table table-striped">
+                    <thead>
+                        <td>Name</td>
+                        <td>Code</td>
+                        <td>Remove</td>
+                    </thead>
+                    <tbody>
+                        <% if(typeof req.session.userData.studentRecord == 'undefined' || JSON.stringify(req.session.userData.studentRecord) == '{}'){ %>
+                            <tr>
+                                <td colspan="2">No Courses Taken.</td>
+                            </tr>
+                        <% }else{
+                                for(var entry in req.session.userData.studentRecord){%>
+                                    <tr>
+                                        <td><%-req.session.userData.studentRecord[entry]['courseDepartment']%></td>
+                                        <td><%-req.session.userData.studentRecord[entry]['courseCode']%></td>
+                                        <td><button class="btn btn-success btn-block removeCourse" id='<%-req.session.userData.studentRecord[entry]['courseDepartment'] + "//" + req.session.userData.studentRecord[entry]['courseCode']%>' type='button'>Remove</button></td>
+                                    </tr>
+                                <% }
+                        } %>
+                    </tbody>
+                </table>
+                <div id='removeCourseError'></div>
+                <br/>
+                <h3>Add Courses</h3>
+                <p>Simply enter the name and code of the course you desire to add to your student record and click submit.</p>
+                <br/>
+                <form role="form">
+                    <fieldset>
+                        <div class="form-group">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="text" id="courseDepartment" class="form-control input-lg" placeholder="Name">
+                                    </td>
+                                    <td>
+                                        <input type="text" id="courseCode" class="form-control input-lg" placeholder="Code">
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/>
+                            <button type="button" class="btn btn-lg btn-success btn-block"  id="submitAddCourse" value="Add">Add</button>
+                        </div>
+                    </fieldset>
+                </form>
+                <div id='addCourseError'></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- partial('../template/partials/footer') %>
+<script src='js/profile.js'></script>

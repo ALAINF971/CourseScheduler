@@ -1,0 +1,499 @@
+{
+    "courseDepartment": "COEN",
+    "courseCode": "316",
+    "courseName": "COMPUTER ARCHITECT. + DESIGN",
+    "courseCredits": "3",
+    "coursePrerequisites": [
+        "COEN 212",
+        "COEN 311"
+    ],
+    "lecture": {
+        "U": {
+            "lectureType": "Lect",
+            "lectureSection": "U",
+            "lectureDay": "--W-F--",
+            "lectureStartTime": "10:15",
+            "lectureEndTime": "11:30",
+            "lectureLocation": "SGW H-537       ",
+            "lectureTeacher": "AIT MOHAMED, OTMANE",
+            "tutorial": {
+                "UA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "UA",
+                    "tutorialDay": "--W----",
+                    "tutorialStartTime": "10:15",
+                    "tutorialEndTime": "11:30",
+                    "tutorialLocation": "SGW H-537       "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COEN",
+    "courseCode": "317",
+    "courseName": "MICROPROCESSOR SYSTEMS",
+    "courseCredits": "4",
+    "coursePrerequisites": [
+        "COEN 311 or COMP 228",
+        "COEN 212 or COMP 327",
+        "SOEN 228"
+    ],
+    "lecture": {
+        "U": {
+            "lectureType": "Lect",
+            "lectureSection": "U",
+            "lectureDay": "-T-J---",
+            "lectureStartTime": "11:45",
+            "lectureEndTime": "13:00",
+            "lectureLocation": "SGW FG-B080      ",
+            "lectureTeacher": "TRAJKOVIC, JELENA",
+            "laboratory": {
+                "UI": {
+                    "laboratoryType": "Lab",
+                    "laboratorySection": "UI",
+                    "laboratoryDay": "M------",
+                    "laboratoryStartTime": "11:45",
+                    "laboratoryEndTime": "13:00",
+                    "laboratoryLocation": "SGW H-859       "
+                },
+                "UJ": {
+                    "laboratoryType": "Lab",
+                    "laboratorySection": "UJ",
+                    "laboratoryDay": "M------",
+                    "laboratoryStartTime": "11:45",
+                    "laboratoryEndTime": "13:00",
+                    "laboratoryLocation": "SGW H-859       "
+                },
+                "UK": {
+                    "laboratoryType": "Lab",
+                    "laboratorySection": "UK",
+                    "laboratoryDay": "-T-----",
+                    "laboratoryStartTime": "11:45",
+                    "laboratoryEndTime": "13:00",
+                    "laboratoryLocation": "SGW H-859       "
+                },
+                "UL": {
+                    "laboratoryType": "Lab",
+                    "laboratorySection": "UL",
+                    "laboratoryDay": "--W----",
+                    "laboratoryStartTime": "11:45",
+                    "laboratoryEndTime": "13:00",
+                    "laboratoryLocation": "SGW H-859       "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COEN",
+    "courseCode": "320",
+    "courseName": "INTRO TO REAL-TIME SYSTEMS",
+    "courseCredits": "3",
+    "coursePrerequisites": [
+        "COEN 346 or COMP 346"
+    ],
+    "lecture": {
+        "S": {
+            "lectureType": "Lect",
+            "lectureSection": "S",
+            "lectureDay": "M-W----",
+            "lectureStartTime": "16:15",
+            "lectureEndTime": "17:30",
+            "lectureLocation": "SGW H-401       ",
+            "lectureTeacher": "ABDI, SAMAR",
+            "tutorial": {
+                "SA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "SA",
+                    "tutorialDay": "--W----",
+                    "tutorialStartTime": "16:15",
+                    "tutorialEndTime": "17:30",
+                    "tutorialLocation": "SGW H-544       "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COEN",
+    "courseCode": "345",
+    "courseName": "SW TESTING + VALIDATION",
+    "courseCredits": "4",
+    "coursePrerequisites": [
+        "SOEN 341"
+    ]
+}
+{
+    "courseDepartment": "COEN",
+    "courseCode": "352",
+    "courseName": "DATA STRUCTURES  ALGORITHMS",
+    "courseCredits": "3",
+    "coursePrerequisites": [
+        "COEN 244"
+    ],
+    "lecture": {
+        "H": {
+            "lectureType": "Lect",
+            "lectureSection": "H",
+            "lectureDay": "-T-J---",
+            "lectureStartTime": "08:45",
+            "lectureEndTime": "10:00",
+            "lectureLocation": "SGW H-521       ",
+            "lectureTeacher": "HAMOU-LHADJ, ABDELWAHAB",
+            "tutorial": {
+                "HA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "HA",
+                    "tutorialDay": "M------",
+                    "tutorialStartTime": "08:45",
+                    "tutorialEndTime": "10:00",
+                    "tutorialLocation": "SGW MB-5.215     "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COEN",
+    "courseCode": "390",
+    "courseName": "COMP. ENG. TEAM DESIGN PROJ.",
+    "courseCredits": "3",
+    "coursePrerequisites": [
+        "COEN 244",
+        "ENCS 282",
+        "ENGR 301"
+    ],
+    "lecture": {
+        "HH": {
+            "lectureType": "Lect",
+            "lectureSection": "HH",
+            "lectureDay": "M------",
+            "lectureStartTime": "17:45",
+            "lectureEndTime": "20:15",
+            "lectureLocation": "SGW H-415       ",
+            "lectureTeacher": "KABIR, M. ZAHANGIR",
+            "tutorial": {
+                "HA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "HA",
+                    "tutorialDay": "----F--",
+                    "tutorialStartTime": "17:45",
+                    "tutorialEndTime": "20:15",
+                    "tutorialLocation": "SGW H-607       "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COEN",
+    "courseCode": "445",
+    "courseName": "COMMUNICA N NETW KS+PROTOCOL",
+    "courseCredits": "4",
+    "coursePrerequisites": [
+        "COEN 346"
+    ],
+    "lecture": {
+        "Q": {
+            "lectureType": "Lect",
+            "lectureSection": "Q",
+            "lectureDay": "-T-J---",
+            "lectureStartTime": "10:15",
+            "lectureEndTime": "11:30",
+            "lectureLocation": "SGW H-607       ",
+            "lectureTeacher": "GLITHO, ROCH",
+            "laboratory": {
+                "QI": {
+                    "laboratoryType": "Lab",
+                    "laboratorySection": "QI",
+                    "laboratoryDay": "-T-----",
+                    "laboratoryStartTime": "10:15",
+                    "laboratoryEndTime": "11:30",
+                    "laboratoryLocation": "SGW H-562       "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COEN",
+    "courseCode": "451",
+    "courseName": "VLSI DESIGN I",
+    "courseCredits": "4",
+    "coursePrerequisites": [
+        "COEN 212 or COMP 327",
+        "ELEC 311"
+    ],
+    "lecture": {
+        "U": {
+            "lectureType": "Lect",
+            "lectureSection": "U",
+            "lectureDay": "M-W----",
+            "lectureStartTime": "16:15",
+            "lectureEndTime": "17:30",
+            "lectureLocation": "SGW MB-2.265     ",
+            "lectureTeacher": "AL-KHALILI, ASIM JAWAD",
+            "laboratory": {
+                "UI": {
+                    "laboratoryType": "Lab",
+                    "laboratorySection": "UI",
+                    "laboratoryDay": "--W----",
+                    "laboratoryStartTime": "16:15",
+                    "laboratoryEndTime": "17:30",
+                    "laboratoryLocation": "SGW H-915       "
+                },
+                "UJ": {
+                    "laboratoryType": "Lab",
+                    "laboratorySection": "UJ",
+                    "laboratoryDay": "M------",
+                    "laboratoryStartTime": "16:15",
+                    "laboratoryEndTime": "17:30",
+                    "laboratoryLocation": "SGW H-915       "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COEN",
+    "courseCode": "490",
+    "courseName": "COMPUTER ENGINEERING PROJECT",
+    "courseCredits": "4",
+    "coursePrerequisites": [
+        "ELEC 311 or SOEN 341",
+        "ENGR 371",
+        "COEN 352"
+    ],
+    "lecture": {
+        "U": {
+            "lectureType": "Lect",
+            "lectureSection": "U",
+            "lectureDay": "-------",
+            "lectureStartTime": "00:00",
+            "lectureEndTime": "00:00",
+            "lectureLocation": "SGW",
+            "lectureTeacher": "WANG, CHUNYAN",
+            "tutorial": {
+                "UA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "UA",
+                    "tutorialDay": "-------",
+                    "tutorialStartTime": "00:00",
+                    "tutorialEndTime": "00:00",
+                    "tutorialLocation": "SGW"
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COMP",
+    "courseCode": "108",
+    "courseName": "COMP INDUS EXPER REF LRNG I",
+    "courseCredits": "3"
+}
+{
+    "courseDepartment": "COMP",
+    "courseCode": "201",
+    "courseName": "INTRODUCTION TO COMPUTING",
+    "courseCredits": "3",
+    "coursePrerequisites": [
+        "MATH 201"
+    ],
+    "lecture": {
+        "DD": {
+            "lectureType": "Lect",
+            "lectureSection": "DD",
+            "lectureDay": "-T-----",
+            "lectureStartTime": "17:45",
+            "lectureEndTime": "20:15",
+            "lectureLocation": "SGW MB-3.255     ",
+            "lectureTeacher": "KLASA, STANISLAS L",
+            "tutorial": {
+                "DA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "DA",
+                    "tutorialDay": "-T-----",
+                    "tutorialStartTime": "17:45",
+                    "tutorialEndTime": "20:15",
+                    "tutorialLocation": "SGW MB-3.255     "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COMP",
+    "courseCode": "208",
+    "courseName": "COMP INDUS EXPER REF LRNG II",
+    "courseCredits": "3"
+}
+{
+    "courseDepartment": "COMP",
+    "courseCode": "218",
+    "courseName": "FUNDAMENTALS OF PROGRAMMING",
+    "courseCredits": "3",
+    "coursePrerequisites": [
+        "MATH 201"
+    ]
+}
+{
+    "courseDepartment": "COMP",
+    "courseCode": "228",
+    "courseName": "SYSTEM HARDWARE",
+    "courseCredits": "3",
+    "coursePrerequisites": [
+        "MATH 203 or MATH 209",
+        "MATH 204 or MATH 208",
+        "COMP 248"
+    ],
+    "lecture": {
+        "U": {
+            "lectureType": "Lect",
+            "lectureSection": "U",
+            "lectureDay": "M-W----",
+            "lectureStartTime": "13:15",
+            "lectureEndTime": "14:30",
+            "lectureLocation": "SGW FG-B080      ",
+            "lectureTeacher": "TITUS, KERLY",
+            "tutorial": {
+                "UA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "UA",
+                    "tutorialDay": "M------",
+                    "tutorialStartTime": "13:15",
+                    "tutorialEndTime": "14:30",
+                    "tutorialLocation": "SGW FG-B080      "
+                },
+                "UB": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "UB",
+                    "tutorialDay": "--W----",
+                    "tutorialStartTime": "13:15",
+                    "tutorialEndTime": "14:30",
+                    "tutorialLocation": "SGW FG-B080      "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COMP",
+    "courseCode": "232",
+    "courseName": "MATH. FOR COMPUTER SCIENCE",
+    "courseCredits": "3",
+    "lecture": {
+        "Q": {
+            "lectureType": "Lect",
+            "lectureSection": "Q",
+            "lectureDay": "-T-J---",
+            "lectureStartTime": "13:15",
+            "lectureEndTime": "14:30",
+            "lectureLocation": "SGW FG-B040      ",
+            "lectureTeacher": "GRAHNE, GOSTA",
+            "tutorial": {
+                "QA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "QA",
+                    "tutorialDay": "-T-----",
+                    "tutorialStartTime": "13:15",
+                    "tutorialEndTime": "14:30",
+                    "tutorialLocation": "SGW H-540       "
+                },
+                "QB": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "QB",
+                    "tutorialDay": "---J---",
+                    "tutorialStartTime": "13:15",
+                    "tutorialEndTime": "14:30",
+                    "tutorialLocation": "SGW FG-B030      "
+                }
+            }
+        },
+        "R": {
+            "lectureType": "Lect",
+            "lectureSection": "R",
+            "lectureDay": "-T-J---",
+            "lectureStartTime": "13:15",
+            "lectureEndTime": "14:30",
+            "lectureLocation": "SGW H-520       ",
+            "lectureTeacher": "NARAYANAN, LATA",
+            "tutorial": {
+                "RA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "RA",
+                    "tutorialDay": "-T-----",
+                    "tutorialStartTime": "13:15",
+                    "tutorialEndTime": "14:30",
+                    "tutorialLocation": "SGW H-415       "
+                },
+                "RB": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "RB",
+                    "tutorialDay": "-T-----",
+                    "tutorialStartTime": "13:15",
+                    "tutorialEndTime": "14:30",
+                    "tutorialLocation": "SGW H-423       "
+                }
+            }
+        },
+        "DD": {
+            "lectureType": "Lect",
+            "lectureSection": "DD",
+            "lectureDay": "--W----",
+            "lectureStartTime": "17:45",
+            "lectureEndTime": "20:15",
+            "lectureLocation": "SGW H-920       ",
+            "lectureTeacher": "DOEDEL, EUSEBIUS",
+            "tutorial": {
+                "DA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "DA",
+                    "tutorialDay": "--W----",
+                    "tutorialStartTime": "17:45",
+                    "tutorialEndTime": "20:15",
+                    "tutorialLocation": "SGW H-523       "
+                },
+                "DB": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "DB",
+                    "tutorialDay": "--W----",
+                    "tutorialStartTime": "17:45",
+                    "tutorialEndTime": "20:15",
+                    "tutorialLocation": "SGW H-429       "
+                }
+            }
+        }
+    }
+}
+{
+    "courseDepartment": "COMP",
+    "courseCode": "233",
+    "courseName": "PROB.  STATS. FOR COMP. SC.",
+    "courseCredits": "3",
+    "coursePrerequisites": [
+        "MATH 205"
+    ],
+    "lecture": {
+        "Q": {
+            "lectureType": "Lect",
+            "lectureSection": "Q",
+            "lectureDay": "-T-J---",
+            "lectureStartTime": "13:15",
+            "lectureEndTime": "14:30",
+            "lectureLocation": "SGW H-509       ",
+            "lectureTeacher": "FEVENS, THOMAS",
+            "tutorial": {
+                "QA": {
+                    "tutorialType": "Tut",
+                    "tutorialSection": "QA",
+                    "tutorialDay": "-T-----",
+                    "tutorialStartTime": "13:15",
+                    "tutorialEndTime": "14:30",
+                    "tutorialLocation": "SGW H-561       "
+                }
+            }
+        }
+    }
+}

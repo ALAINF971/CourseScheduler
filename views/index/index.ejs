@@ -1,0 +1,128 @@
+<%- partial('../template/partials/header')%> 
+<%- partial('../template/partials/navigation')%> 
+
+<div class="intro-header"> 
+    <div class="container"> 
+        <div class="row"> 
+            <div class="col-lg-12"> 
+                <div class="intro-message"> 
+                    <h1>Schedule Generator</h1> 
+                    <h3>The Easy Way</h3> 
+                    <hr class="intro-divider"> </div> 
+                </div> 
+                <% if(!req.session.authenticated) { %>
+                    <div class="col-md-5"> 
+                        <p id="error">Please enter account information.</p> 
+                        <form role="form"> 
+                            <fieldset> 
+                                <div class="form-group"> 
+                                    <div class="input-group input-group-lg"> 
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-user fa-fw"></i>
+                                        </span> 
+                                        <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email"/> 
+                                    </div> 
+                                </div> 
+                                <div class="form-group"> 
+                                    <div class="input-group input-group-lg"> 
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-lock fa-fw"></i>
+                                        </span> 
+                                        <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password"/> 
+                                    </div> 
+                                </div> 
+                                <div class="row"> 
+                                    <div class="col-xs-12 col-sm-6"> 
+                                        <button type='button' class="btn btn-lg btn-success btn-block" value="Log In" id="submit">Log In</button> 
+                                    </div>
+                                </div> 
+                            </fieldset> 
+                        </form> 
+                    </div>
+                <% } %>
+                <div class="col-md-5 col-md-offset-2"> 
+                    <br class="hidden-md hidden-lg"/> 
+                    <p>Your Life Could Not Be Easier</p> 
+                    <ul> 
+                        <li>Save hours by using the SGE Schedule Generator.</li> 
+                        <li>Let us do all the work.</li> 
+                    </ul> 
+                    <p>Questions? Issues?</p> 
+                    <ul> 
+                        <li>Contact the Help Service Desk at 999-999-9999, ext. 1234, or</li> 
+                        <li>email help@concordia.ca.</li> 
+                    </ul> 
+                    <br> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+    <div class="content-section-a"> 
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-lg-5 col-sm-6"> 
+                    <hr class="section-heading-spacer"> 
+                        <div class="clearfix"></div> 
+                            <h2 class="section-heading">Register Now<br/>Its Easy</h2> 
+                            <p class="lead"> 
+                                Take 3 minutes to register and save hours of time making your next course schedule with SGE! 
+                                <br/> 
+                                <a target="_blank" href="/register">Register Now!</a> 
+                            </p> 
+                        </div> 
+                        <div class="col-lg-5 col-lg-offset-2 col-sm-6"> 
+                            <img class="img-responsive img-rounded" src="images/relax.jpg" alt=""> 
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+            <div class="content-section-b"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6"> 
+                            <hr class="section-heading-spacer"> 
+                                <div class="clearfix"></div> 
+                                <h2 class="section-heading">Make Your Life Easier</h2> 
+                                <p class="lead"> 
+                                    Sit back, relax and save hours of your time by using SGE. Just enter your desired courses and we handel the rest. 
+                                    <a target="_blank" href="/register">Register Now!</a> 
+                                </p> 
+                            </div> 
+                            <div class="col-lg-5 col-sm-pull-6  col-sm-6"> 
+                                <img class="img-responsive img-rounded" src="images/happy-students.jpg" alt=""> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div>
+                <div class="content-section-a"> 
+                    <div class="container"> 
+                        <div class="row"> 
+                            <div class="col-lg-5 col-sm-6"> 
+                                <hr class="section-heading-spacer"> 
+                                    <div class="clearfix"></div> 
+                                    <h2 class="section-heading">Simple To Use</h2> 
+                                    <p class="lead"> 
+                                    Get started in 3 easy steps: 
+                                    <ol> 
+                                        <li><a target="_blank" href="/register">Register</a></li> 
+                                        <li>Add courses to your schedule</li> 
+                                        <li>Generate your schedule</li> 
+                                    </ol> 
+                                </p> 
+                            </div> 
+                            <div class="col-lg-5 col-lg-offset-2 col-sm-6"> 
+                                <img class="img-responsive img-rounded" src="images/123.png" alt=""> 
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- partial('../template/partials/footer') %>
+
+<% if(!req.session.authenticated) { %>
+    <script src='js/login.js'></script>
+<% } %>

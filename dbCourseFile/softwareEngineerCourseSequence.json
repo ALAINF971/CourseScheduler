@@ -1,0 +1,173 @@
+{
+"year1":{"fall"  : {"regular_courses":{"COMP 232":{"courseName":"Mathematics for Computer Science", "dept":"COMP", "credits": 3},
+                                       "COMP 248":{"courseName":"Object-Oriented Programming I", "dept":"COMP", "credits": 3},
+                                       "ENGR 201":{"courseName":"Professional Practice & Responsibility", "dept":"ENGR", "credits": 1.5},
+                                       "ENGR 213":{"courseName":"Applied Ordinary Differential Equations", "dept":"ENGR", "credits": 3}
+                                      },
+                    "general_elective":{"COMP 345":{"courseName":"Advanced Program Design with C++", "dept":"COMP", "credits": 3},
+                                        "COMP 353":{"courseName":"Databases", "dept":"COMP", "credits": 4},
+                                        "COMP 371":{"courseName":"Computer Graphics", "dept":"COMP", "credits": 4},
+                                        "COMP 426":{"courseName":"Multicore Programming", "dept":"COMP", "credits": 4},
+                                        "COMP 428":{"courseName":"Parallel Programming", "dept":"COMP", "credits": 4},
+                                        "COMP 442":{"courseName":"Compiler Design", "dept":"COMP", "credits": 4},
+                                        "COMP 445":{"courseName":"Data Communication and Computer Networks", "dept":"COMP", "credits": 4},
+                                        "COMP 451":{"courseName":"Database Design", "dept":"COMP", "credits": 4},
+                                        "COMP 465":{"courseName":"Design and Analysis of Algorithms", "dept":"COMP", "credits": 4}
+                                        "COMP 472":{"courseName":"Artificial Intelligence", "dept":"COMP", "credits": 4},
+                                        "COMP 473":{"courseName":"Pattern Recognition", "dept":"COMP", "credits": 4},
+                                        "COMP 478":{"courseName":"Image Processing", "dept":"COMP", "credits": 4},
+                                        "COMP 479":{"courseName":"Information Retrieval and Web Search", "dept":"COMP", "credits": 4},
+                                        "COMP 422":{"courseName":"Embedded Systems and Software", "dept":"COMP", "credits": 4},
+                                        "COMP 423":{"courseName":"Distributed Systems", "dept":"COMP", "credits": 4},
+                                        "COMP 431":{"courseName":"Formal Methods", "dept":"COMP", "credits": 4},
+                                        "SOEN 448":{"courseName":"Management of Evolving Systems", "dept":"SOEN", "credits": 4},
+                                        "ENGR 411":{"courseName":"Special Technical Report", "dept":"ENGR", "credits": 4}
+                                        }
+                   },
+         "winter": {"regular_courses":{"COMP 249":{"courseName":"Object-Oriented Program", "dept":"COMP", "credits": 3},
+                                        "ENGR 233":{"courseName":"Applied Advanced Calculus", "dept":"ENGR", "credits": 3},
+                                        "SOEN 228":{"courseName":"System Hardware", "dept":"SOEN", "credits": 4},
+                                        "SOEN 287":{"courseName":"Introduction to Web Application", "dept":"SOEN", "credits": 3}
+                                      },
+                    "basic_science":{"BIOL 206":{"courseName":"Elementary Genetics", "dept":"BIOL", "credits": 3},
+                                     "BIOL 206":{"courseName":"Environmental Biology", "dept":"BIOL", "credits": 3},
+                                     "BIOL 226":{"courseName":"Biodiversity and Ecology", "dept":"BIOL", "credits": 3},
+                                     "BIOL 261":{"courseName":"Molecular and General Genetics", "dept":"BIOL", "credits": 3},
+                                     "SOEN 287":{"courseName":"Introduction to Web Application", "dept":"SOEN", "credits": 3},
+                                     "CHEM 209":{"courseName":"Discovering Biotechnology", "dept":"CHEM", "credits": 3},
+                                     "CHEM 217":{"courseName":"Introductory Analytical Chemistry I", "dept":"CHEM", "credits": 3},
+                                     "CHEM 221":{"courseName":"Introductory Organic Chemistry", "dept":"CHEM", "credits": 3},
+                                     "CHEM 234":{"courseName":"Physical Chemistry I: Thermodynamics", "dept":"CHEM", "credits": 3},
+                                     "GEOL 206":{"courseName":"Earthquakes, Drifting Continents and Volcanoes", "dept":"GEOL", "credits": 3},
+                                     "GEOL 208":{"courseName":"The Earth, Moon and the Planets", "dept":"GEOL", "credits": 3},
+                                     "PHYS 252":{"courseName":"Optics", "dept":"PHYS", "credits": 3},
+                                     "PHYS 253":{"courseName":"Electricity and Magnetism I", "dept":"PHYS", "credits": 3},
+                                     "PHYS 273":{"courseName":"Energy and Environment", "dept":"PHYS", "credits": 3},
+                                     "PHYS 334":{"courseName":"Thermodynamics", "dept":"PHYS", "credits": 3},
+                                     "PHYS 354":{"courseName":"Electricity and Magnetism II", "dept":"PHYS", "credits": 3},
+                                     "PHYS 384":{"courseName":"Introduction to Astronomy", "dept":"PHYS", "credits": 3},
+                                     "PHYS 385":{"courseName":"Astrophysics", "dept":"PHYS", "credits": 3}
+                                     }
+                    }
+        },
+
+"year2":{"fall":{"regular_courses":{"COMP 348":{"courseName":"Principles of Programming Languages", "dept":"COMP", "credits": 3},
+                                       "COMP 352":{"courseName":"Data Structures and Algorithms", "dept":"COMP", "credits": 3},
+                                       "ENCS 282":{"courseName":"Technical Writing and Communication", "dept":"ENGR", "credits": 3},
+                                       "ENGR 202":{"courseName":"Sustainable Development and Environmental Stewardship", "dept":"ENGR", "credits": 1.5}
+                                      },
+                    "basic_science":{"BIOL 206":{"courseName":"Elementary Genetics", "dept":"BIOL", "credits": 3},
+                                     "BIOL 206":{"courseName":"Environmental Biology", "dept":"BIOL", "credits": 3},
+                                     "BIOL 226":{"courseName":"Biodiversity and Ecology", "dept":"BIOL", "credits": 3},
+                                     "BIOL 261":{"courseName":"Molecular and General Genetics", "dept":"BIOL", "credits": 3},
+                                     "SOEN 287":{"courseName":"Introduction to Web Application", "dept":"SOEN", "credits": 3},
+                                     "CHEM 209":{"courseName":"Discovering Biotechnology", "dept":"CHEM", "credits": 3},
+                                     "CHEM 217":{"courseName":"Introductory Analytical Chemistry I", "dept":"CHEM", "credits": 3},
+                                     "CHEM 221":{"courseName":"Introductory Organic Chemistry", "dept":"CHEM", "credits": 3},
+                                     "CHEM 234":{"courseName":"Physical Chemistry I: Thermodynamics", "dept":"CHEM", "credits": 3},
+                                     "GEOL 206":{"courseName":"Earthquakes, Drifting Continents and Volcanoes", "dept":"GEOL", "credits": 3},
+                                     "GEOL 208":{"courseName":"The Earth, Moon and the Planets", "dept":"GEOL", "credits": 3},
+                                     "PHYS 252":{"courseName":"Optics", "dept":"PHYS", "credits": 3},
+                                     "PHYS 253":{"courseName":"Electricity and Magnetism I", "dept":"PHYS", "credits": 3},
+                                     "PHYS 273":{"courseName":"Energy and Environment", "dept":"PHYS", "credits": 3},
+                                     "PHYS 334":{"courseName":"Thermodynamics", "dept":"PHYS", "credits": 3},
+                                     "PHYS 354":{"courseName":"Electricity and Magnetism II", "dept":"PHYS", "credits": 3},
+                                    "PHYS 384":{"courseName":"Introduction to Astronomy", "dept":"PHYS", "credits": 3},
+                                    "PHYS 385":{"courseName":"Astrophysics", "dept":"PHYS", "credits": 3}
+                                }
+                },
+            "winter": {"regular_courses":{"COMP 346":{"courseName":"Operating Systems", "dept":"COMP", "credits": 4},
+                                           "ELEC 275":{"courseName":"Principles of Electrical Engineering", "dept":"ELEC", "credits": 3.5},
+                                           "ENGR 371":{"courseName":"Probability and Statistics in Engineering", "dept":"ENGR", "credits": 3},
+                                           "SOEN 331":{"courseName":"Introduction to Formal Methods for Software Engineering", "dept":"SOEN", "credits": 3},
+                                           "SOEN 341":{"courseName":"Software Process", "dept":"SOEN", "credits": 3}
+                        },
+                       "general_elective":{}
+                     }
+            },
+
+    "year3":{"fall"  : {"regular_courses":{"COMP 335":{"courseName":"Introduction to Theoretical Computer Science", "dept":"COMP", "credits": 3},
+                                            "SOEN 342":{"courseName":"Software Architecture and Design I", "dept":"SOEN", "credits": 3},
+                                            "SOEN 343":{"courseName":"Software Requirements and Specifications", "dept":"SOEN", "credits": 3},
+                                            "SOEN 384":{"courseName":"Management Measurement and Quality Control", "dept":"SOEN", "credits": 3},
+                                            "ENGR 391":{"courseName":"Numerical Methods in Engineering", "dept":"ENGR","credits": 3}
+                                          },
+                        "general_elective":{}
+                    },
+            "winter": {"regular_courses":{"SOEN 344":{"courseName":"Software Architecture and Design II", "dept":"SOEN", "credits": 3},
+                                           "SOEN 345":{"courseName":"Software Testing, Verification and Quality Assurance", "dept":"SOEN", "credits": 3},
+                                           "SOEN 357":{"courseName":"User Interface Design", "dept":"SOEN", "credits": 3},
+                                           "SOEN 390":{"courseName":"Software Engineering Team Design Project", "dept":"SOEN", "credits": 3.5}
+                                         },
+                       "general_elective":{"COMP 345":{"courseName":"Advanced Program Design with C++", "dept":"COMP", "credits": 3},
+                                           "COMP 353":{"courseName":"Databases", "dept":"COMP", "credits": 4},
+                                           "COMP 371":{"courseName":"Computer Graphics", "dept":"COMP", "credits": 4},
+                                           "COMP 426":{"courseName":"Multicore Programming", "dept":"COMP", "credits": 4},
+                                           "COMP 428":{"courseName":"Parallel Programming", "dept":"COMP", "credits": 4},
+                                           "COMP 442":{"courseName":"Compiler Design", "dept":"COMP", "credits": 4},
+                                           "COMP 445":{"courseName":"Data Communication and Computer Networks", "dept":"COMP", "credits": 4},
+                                           "COMP 451":{"courseName":"Database Design", "dept":"COMP", "credits": 4},
+                                           "COMP 465":{"courseName":"Design and Analysis of Algorithms", "dept":"COMP", "credits": 4}
+                                           "COMP 472":{"courseName":"Artificial Intelligence", "dept":"COMP", "credits": 4},
+                                           "COMP 473":{"courseName":"Pattern Recognition", "dept":"COMP", "credits": 4},
+                                           "COMP 478":{"courseName":"Image Processing", "dept":"COMP", "credits": 4},
+                                           "COMP 479":{"courseName":"Information Retrieval and Web Search", "dept":"COMP", "credits": 4},
+                                           "COMP 422":{"courseName":"Embedded Systems and Software", "dept":"COMP", "credits": 4},
+                                           "COMP 423":{"courseName":"Distributed Systems", "dept":"COMP", "credits": 4},
+                                           "COMP 431":{"courseName":"Formal Methods", "dept":"COMP", "credits": 4},
+                                           "SOEN 448":{"courseName":"Management of Evolving Systems", "dept":"SOEN", "credits": 4},
+                                           "ENGR 411":{"courseName":"Special Technical Report", "dept":"ENGR", "credits": 4}
+                                       }
+                    }
+            },
+
+    "year4":{"fall"  : {"regular_courses":{"SOEN 490":{"courseName":"Capstone Software Engineering Design Project", "dept":"SOEN", "credits": 4},
+                                            "ENGR 301":{"courseName":"Engineering Management Principles and Economics", "dept":"ENGR", "credits": 3},
+                                            "SOEN 321":{"courseName":"Information Systems Security", "dept":"SOEN", "credits": 3}
+                        },
+                        "general_elective":{"COMP 345":{"courseName":"Advanced Program Design with C++", "dept":"COMP", "credits": 3},
+                                            "COMP 353":{"courseName":"Databases", "dept":"COMP", "credits": 4},
+                                            "COMP 371":{"courseName":"Computer Graphics", "dept":"COMP", "credits": 4},
+                                            "COMP 426":{"courseName":"Multicore Programming", "dept":"COMP", "credits": 4},
+                                            "COMP 428":{"courseName":"Parallel Programming", "dept":"COMP", "credits": 4},
+                                            "COMP 442":{"courseName":"Compiler Design", "dept":"COMP", "credits": 4},
+                                            "COMP 445":{"courseName":"Data Communication and Computer Networks", "dept":"COMP", "credits": 4},
+                                            "COMP 451":{"courseName":"Database Design", "dept":"COMP", "credits": 4},
+                                            "COMP 465":{"courseName":"Design and Analysis of Algorithms", "dept":"COMP", "credits": 4}
+                                            "COMP 472":{"courseName":"Artificial Intelligence", "dept":"COMP", "credits": 4},
+                                            "COMP 473":{"courseName":"Pattern Recognition", "dept":"COMP", "credits": 4},
+                                            "COMP 478":{"courseName":"Image Processing", "dept":"COMP", "credits": 4},
+                                            "COMP 479":{"courseName":"Information Retrieval and Web Search", "dept":"COMP", "credits": 4},
+                                            "COMP 422":{"courseName":"Embedded Systems and Software", "dept":"COMP", "credits": 4},
+                                            "COMP 423":{"courseName":"Distributed Systems", "dept":"COMP", "credits": 4},
+                                            "COMP 431":{"courseName":"Formal Methods", "dept":"COMP", "credits": 4},
+                                            "SOEN 448":{"courseName":"Management of Evolving Systems", "dept":"SOEN", "credits": 4},
+                                            "ENGR 411":{"courseName":"Special Technical Report", "dept":"ENGR", "credits": 4}
+                                        }
+                        },
+            "winter": {"regular_courses":{"SOEN 385":{"courseName":"Control System", "dept":"SOEN", "credits": 3},
+                                           "ENGR 392":{"courseName":"Impact of Technology on Society", "dept":"ENGR", "credits": 3},
+                                           "SOEN 490":{"courseName":"Capstone Software Engineering Design Project", "dept":"SOEN", "credits": 4}
+                                         },
+                       "general_elective":{"COMP 345":{"courseName":"Advanced Program Design with C++", "dept":"COMP", "credits": 3},
+                                           "COMP 353":{"courseName":"Databases", "dept":"COMP", "credits": 4},
+                                           "COMP 371":{"courseName":"Computer Graphics", "dept":"COMP", "credits": 4},
+                                           "COMP 426":{"courseName":"Multicore Programming", "dept":"COMP", "credits": 4},
+                                           "COMP 428":{"courseName":"Parallel Programming", "dept":"COMP", "credits": 4},
+                                           "COMP 442":{"courseName":"Compiler Design", "dept":"COMP", "credits": 4},
+                                           "COMP 445":{"courseName":"Data Communication and Computer Networks", "dept":"COMP", "credits": 4},
+                                           "COMP 451":{"courseName":"Database Design", "dept":"COMP", "credits": 4},
+                                           "COMP 465":{"courseName":"Design and Analysis of Algorithms", "dept":"COMP", "credits": 4}
+                                           "COMP 472":{"courseName":"Artificial Intelligence", "dept":"COMP", "credits": 4},
+                                           "COMP 473":{"courseName":"Pattern Recognition", "dept":"COMP", "credits": 4},
+                                           "COMP 478":{"courseName":"Image Processing", "dept":"COMP", "credits": 4},
+                                           "COMP 479":{"courseName":"Information Retrieval and Web Search", "dept":"COMP", "credits": 4},
+                                           "COMP 422":{"courseName":"Embedded Systems and Software", "dept":"COMP", "credits": 4},
+                                           "COMP 423":{"courseName":"Distributed Systems", "dept":"COMP", "credits": 4},
+                                           "COMP 431":{"courseName":"Formal Methods", "dept":"COMP", "credits": 4},
+                                           "SOEN 448":{"courseName":"Management of Evolving Systems", "dept":"SOEN", "credits": 4},
+                                           "ENGR 411":{"courseName":"Special Technical Report", "dept":"ENGR", "credits": 4}
+                                       }
+                    }
+            }
+}

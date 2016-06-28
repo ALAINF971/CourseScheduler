@@ -1,0 +1,141 @@
+<%- partial('../template/partials/header')%>
+<%- partial('../template/partials/navigation')%>
+
+<div class="intro-header" style="padding-top: 0px; padding-bottom: 0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h3>Generate Your Schedule </h3>
+                    <hr class="intro-divider" >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li class="active" id='autoGenerateLI'><a href="#" id='navAutoGenerateSchedule'>Auto Generate Schedule</a></li>
+        <li id='manualGenerateLI'><a href="#" id='navManuallyStudentRecord'>Manually Generate Schedule</a></li>
+    </ul>
+</div>
+
+<div class="content-section-a" id="autoGenerate">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 .col-md-offset-6">
+                <h3>Automatic Schedule Generation</h3>
+                <p>This will allow you to automatically generate your course schedule based on your course sequence and preveously taken classes. Just click generate!</p>
+                <br/>
+                <button type="button" class="btn btn-lg btn-success btn-block"  id="schedulePageRedirect" value="Submit">Generate!</button>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-section-a" id="manualGenerate">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 .col-md-offset-6">
+                <h3>Manual Schedule Generation</h3>
+                <p>This will allow you to make your own custom schedule based on your entered courses.</p>
+                <br/>
+
+                <table class="table table-striped">
+                    <thead>
+                        <td>Name</td>
+                        <td>Code</td>
+                        <td>Add/Remove</td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <select class="form-control">
+                                    <option>SOEN</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select class="form-control">
+                                    <option>341</option>
+                                </select>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-block"  id="addCourse" value="Add">Add</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                SOEN
+                            </td>
+                            <td>
+                                331
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-block"  id="removeCourse" value="Add">Remove</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                ENGR
+                            </td>
+                            <td>
+                                371
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-block"  id="removeCourse" value="Add">Remove</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/>
+                <button type="button" class="btn btn-lg btn-success btn-block"  id="submitManualGenerate" value="Add">Generate!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content-section-a">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 .col-md-offset-6">
+                <h3>Preferences</h3>
+                <p>Add constraints to the schedule that will be applied during generation. Simply select your desired preferences.</p>
+                <br/>
+                <table class="table table-striped">
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Day Off:
+                                <select class="form-control">
+                                    <option>N.A.</option>
+                                    <option>Monday</option>
+                                    <option>Tuesday</option>
+                                    <option>Wednesday</option>
+                                    <option>Thursday</option>
+                                    <option>Friday</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Time Of Day:
+                                <select class="form-control">
+                                    <option>N.A.</option>
+                                    <option>Morning</option>
+                                    <option>Afternoon</option>
+                                    <option>Night</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- partial('../template/partials/footer') %>
+<script src='js/schedule.js'></script>
